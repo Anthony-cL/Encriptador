@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f5fc;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 5rem;
+}
+
+.containerTitle {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.containerTitle h1 {
+  width: 80%;
+}
+
+.boxText1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea{
+  resize: none;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 5px 10px;
+  line-height: 1.5; 
+}
+
+textarea::placeholder{
+  padding-top: 5px;
+  padding-left: 10px;
+  font-size: 18px;
+  color: #0A3871
+}
+
+
+
+.informacion {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+}
+
+.informacion img {
+  padding-right: 1rem;
+}
+
+.botones{
+  justify-content: center;
+  align-items: center;
+}
+
+.boton1 {
+  width: 100px;
+  background-color: #008CBA;
+  color: white;
+  font-size: 15px;
+}
+
+.boton2 {
+  width: 100px;
+  background-color: #008CBA;
+  color: white;
+  font-size: 15px;
+}
+
+.boxText2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  margin-left: 80px;
+  width: 300px;
+  height: 415px;
+}
+
+.muñeco{
+  display: block;
+  margin: 0;
+  justify-content: center;
+  width: 200px;
+}
+
+.titulo_Text2{
+  padding-top: 0.5rem;
+}
+
+.subtitulo_Text2{
+  text-align: center;
+  padding-top: 3px;
+}
+
+.footer{
+  text-align: center;
+  padding-bottom: 30px;
+}
